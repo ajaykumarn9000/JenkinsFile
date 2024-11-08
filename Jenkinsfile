@@ -2,8 +2,6 @@ pipeline {
  agent any
  parameters {
     string(name: 'USER_NAME', defaultValue: 'Ajaykumar The Great', description: 'Name of the user')
- }
-  parameters {
     string(name: 'USER_TASK', defaultValue: 'DevOps Practical', description: 'Task of the user')
   }
  stages {
